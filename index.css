@@ -3,3 +3,56 @@ li:hover{
     text-decoration:underline;
 
 }
+.styling{
+    bottom: 5%;
+    left: 25%;
+    
+}
+button{
+    background-color: darkmagenta; 
+     color: white;
+      border-radius: 25px;
+       padding-top:10px;
+       padding-left: 20px;
+       padding-bottom: 10px;
+        padding-right: 20px;
+        border: none;
+}
+h1{
+    font-size: 55px;
+    text-align: start;
+}
+p{
+    text-align: start; line-height: 20px;
+}
+.view:hover{
+    background-color: rgb(223, 96, 223);
+}
+@media(max-width:1162px){
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media(max-width:800px){
+h1{ font-size: 35px;
+   
+}
+.styling{
+    margin-left: -110px;
+
+}
+
+}
+@media(max-width:500px){
+    h1{font-size: 30px;
+
+    }
+    .styling{
+        margin-left: -100px;
+        padding: 5px;
+    }
+}
+
+    
+
