@@ -35,9 +35,11 @@ p{
 }
 
 @media(max-width:800px){
-h1{ font-size: 35px;
-
-   
+h1{ font-size: 35px;   
+}
+.rok{
+    width: 300px;
+    font-size: 10px;
 }
 .view{
     font-size: 8px;
@@ -51,6 +53,10 @@ h1{ font-size: 35px;
 }
 @media(max-width:500px){
     h1{font-size: 30px;
+
+    }
+    .rok{
+        width: %;
 
     }
     .styling{
@@ -72,16 +78,19 @@ h1{ font-size: 35px;
 input textarea section{
     border: none;
 }
-button{
+.lok{
     background-color: darkmagenta;
-    width: 18%;
+    width: 30%;
     border: none;
     color: white;
+    border-radius: 25px;
+    padding: 10px;
 }
-button:hover{
+.lok:hover{
     background-color: white;
     color: darkmagenta;
     border: solid 2px darkmagenta;
+    font-weight: 400px;
 }
 /* .btn1{
     background-color: darkmagenta;
@@ -96,5 +105,6 @@ button:hover{
     height: 541px;
 
 }
+
     
 
